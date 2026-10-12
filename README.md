@@ -9,7 +9,7 @@ Je développe des pipelines de données, des modèles analytiques et des applica
 
 **À la recherche d’un stage PFE en Data Engineering, Data Analytics ou AI Engineering.**
 
-[LinkedIn](https://www.linkedin.com/in/ilyass-r%E2%80%99baai-4a601b390/) · [Contact](mailto:ilyassrbai@gmail.com) · [Projets](#projets) · [Compétences](#compétences)
+[LinkedIn](https://www.linkedin.com/in/ilyass-r%E2%80%99baai-4a601b390/) · [Contact](mailto:ilyassrbai@gmail.com) · [Projets](#projets) · [Compétences](#compétences) · [Certificats](#certificats-coursera)
 
 </div>
 
@@ -131,6 +131,21 @@ Python, SQL, R, JavaScript, TypeScript, PHP, Java, C, C++, C#, HTML, CSS, Shell 
 Outils de développement : Visual Studio Code, Jupyter Notebook, Postman, Android Studio et pgAdmin.
 
 </details>
+
+## Certificats Coursera
+
+**13 certificats de réussite de cours** en data, cloud, programmation et gestion de projet. Voici une sélection liée à mon parcours en Data Engineering et IA :
+
+| Cours | Organisme | Date | Vérification |
+| --- | --- | --- | --- |
+| Introduction to Big Data | University of California San Diego | Mars 2026 | [Certificat](https://coursera.org/verify/HCFSHSP02QSZ) |
+| Introduction to Machine Learning | Duke University | Novembre 2025 | [Certificat](https://coursera.org/verify/Y2YZ1NC9LVN8) |
+| Introduction to Cloud Computing | IBM | Novembre 2025 | [Certificat](https://coursera.org/verify/6RWL07QOQ6UI) |
+| Introduction to NoSQL Databases | IBM | Novembre 2025 | [Certificat](https://coursera.org/verify/7YREWX25ZP5S) |
+| Using Python to Access Web Data | University of Michigan | Avril 2025 | [Certificat](https://coursera.org/verify/6ZTLKAFMDQ0W) |
+| Programming for Everybody (Getting Started with Python) | University of Michigan | Novembre 2024 | [Certificat](https://coursera.org/verify/SEYO4CIKX4B4) |
+
+[Voir les 13 certificats, leurs dates et leurs liens de vérification](certifications/README.md).
 
 ## Expériences professionnelles
 
