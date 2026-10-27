@@ -19,9 +19,40 @@ Je développe des pipelines de données, des modèles analytiques et des applica
 
 Mon intérêt principal est la Data Engineering : relier l’ingestion, la transformation, le stockage et l’analyse pour rendre les données exploitables. Je travaille avec Python et SQL, Azure et Databricks, ainsi que Power BI pour présenter les résultats.
 
-Ce portfolio rassemble **12 projets publics**, avec leurs codes, ressources et documentations. Mes projets en machine learning et en développement logiciel complètent ce parcours.
+Ce portfolio rassemble **13 projets publics**, avec leurs codes, ressources et documentations. Mes projets en machine learning et en développement logiciel complètent ce parcours.
 
 ## Projets
+
+### AI Data Agent — nouveau projet
+
+**Objectif :** passer d’une question en langage naturel à une analyse PostgreSQL ou à un traitement de données, depuis une interface de bureau.
+
+- **Routage :** classification structurée des demandes vers un agent SQL ou un agent ETL avec LangGraph et Pydantic.
+- **Agent SQL :** reformulation, génération de requêtes, avis d’un juge de sécurité et présentation des résultats.
+- **Agent ETL :** extraction depuis une API et transformation de fichiers avec Pandas.
+- **Interface :** modes Auto, SQL et ETL, historique de session, copie et export des réponses.
+- **Validation :** tests de régression reproductibles et benchmark réel sur un jeu de données synthétique.
+
+| Tests hors ligne | Cas SQL synthétiques | Scénarios de routage réels |
+| :---: | :---: | :---: |
+| 23 / 23 réussis | 5 / 5 résultats exacts | 2 / 2 validés |
+
+Ces mesures proviennent d’un essai documenté du 26 octobre 2026. Le benchmark SQL utilise un exécuteur restreint aux tables synthétiques ; il ne mesure pas la fiabilité générale du système ni la justesse de toutes les réponses textuelles.
+
+**Technologies :** Python · PostgreSQL · Pandas · LangChain · LangGraph · Pydantic · Tkinter.
+
+[Code et documentation](https://github.com/Ilyass-rbaai/AI-Data-Agent) · [Tests et limites](https://github.com/Ilyass-rbaai/AI-Data-Agent/blob/main/reports/RELIABILITY.md) · [Évaluation réelle](https://github.com/Ilyass-rbaai/AI-Data-Agent/blob/main/reports/LIVE_EVALUATION.md)
+
+[![AI Data Agent — interface de bureau](https://raw.githubusercontent.com/Ilyass-rbaai/AI-Data-Agent/main/docs/interface.png)](https://github.com/Ilyass-rbaai/AI-Data-Agent)
+
+<details>
+<summary>Voir l’architecture et les prochaines améliorations</summary>
+
+![Architecture du projet AI Data Agent](assets/ai-data-agent-architecture.png)
+
+**Statut : prototype local.** Les prochaines priorités sont l’isolation du Python généré, l’utilisation de permissions PostgreSQL minimales et l’élargissement des évaluations SQL et ETL. Le compte local audité était encore superutilisateur ; le benchmark restreint ne corrige pas cette configuration applicative.
+
+</details>
 
 ### SQL Data Warehouse & Power BI — projet à découvrir
 
@@ -120,6 +151,7 @@ Les dépôts détaillent les données et les évaluations de ces prototypes.
 | Data Engineering | ETL/ELT, orchestration, ingestion incrémentale, architecture Bronze/Silver/Gold | Python, SQL, Azure Data Factory, ADLS Gen2, Databricks, PySpark, Delta Lake, Airflow |
 | Business Intelligence | Modélisation dimensionnelle, mesures DAX, filtres, reporting, validation SQL | SQL Server, Power BI, Power Query, DAX, Excel |
 | Machine Learning & IA | Classification, prédiction, apprentissage incrémental, dérive, recherche vectorielle | TensorFlow, Keras, XGBoost, River, FAISS, Groq |
+| Agents IA & validation | Routage, appels d’outils, sorties structurées, tests de régression et évaluation SQL | LangChain, LangGraph, Pydantic, OpenAI API, unittest |
 | Applications & bases de données | API REST, interfaces, modèles relationnels et accès aux données | FastAPI, Streamlit, Laravel, React, PostgreSQL, MySQL, JDBC |
 | Environnement de développement | Versionnement, conteneurs, notebooks et observation de services | Git, GitHub, Docker, Jupyter, Prometheus, Grafana |
 
@@ -169,4 +201,4 @@ Je recherche un stage PFE pour contribuer à des projets de données et approfon
 
 ---
 
-Dernière mise à jour : octobre 2026.
+Dernière mise à jour : 27 octobre 2026.
